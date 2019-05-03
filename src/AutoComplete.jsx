@@ -58,7 +58,6 @@ function AutoComplete({
       handleChange(selectedItems);
     }
   }, [selectedItems, handleChange]);
-  AutoComplete;
   return (
     <ClickAwayListener onClickAway={closeMenu}>
       <div>
